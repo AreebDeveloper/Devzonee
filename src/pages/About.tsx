@@ -2,10 +2,6 @@ import { motion } from "framer-motion";
 import { Target, Eye, Award, Coffee, Rocket, Heart } from "lucide-react";
 import Layout from "@/components/Layout";
 import SectionHeading from "@/components/SectionHeading";
-import ua from '../assets/ua.jpeg'
-import hr from '../assets/hr.jpeg'
-import ag from '../assets/ag.jpeg'
-import aa from '../assets/aa.jpeg'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -16,10 +12,10 @@ const fadeUp = {
 };
 
 const team = [
-  { name: "SHEIKH Usman Arshad", role: "CEO & Founder", avatar: ua },
-  { name: "Hassan raza", role: " co founder and manager", avatar: hr },
-  { name: "Abdul ahad", role: "mern stack developer", avatar: aa },
-  { name: "Areeb Gohar", role: "mern stack developer", avatar: ag },
+  { name: "SHEIKH Usman Arshad", role: "CEO & Founder", avatar: '/Images/ua.jpeg' },
+  { name: "Hassan raza", role: " co founder and manager", avatar: '/Images/hr.jpeg' },
+  { name: "Abdul ahad", role: "mern stack developer", avatar: '/Images/aa.jpeg' },
+  { name: "Areeb Gohar", role: "mern stack developer", avatar: '/Images/ag.jpeg' },
 ];
 
 const values = [
